@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ProPresenter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="toolbar">
+        <h1>ProPresenter</h1>
+        <button onclick="addSlide()">+ Slide</button>
+        <button onclick="goLive()">Go Live</button>
+    </div>
+
+    <div class="container">
+
+        <div class="slides" id="slides"></div>
+
+        <div class="editor">
+            <textarea id="textInput" placeholder="Type lyrics..."></textarea>
+        </div>
+
+        <div class="preview" id="preview">Preview</div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
